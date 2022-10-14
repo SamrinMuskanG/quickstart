@@ -1,0 +1,19 @@
+create a spring boot starter project wit web,lombok,datajpa and my sql
+create java class add annotations(@Entity,@Table,@id and @Column)
+create interface extending jpaRepository
+create service class and Autowire Repository
+call  the method of Repository in service class methods
+Register the Entity bean with values
+Access Entity Bean and Service bean using getBean method
+pass entity Bean to save Method of service and print the return value
+update the application run main method 
+repeat by calling other methods of service class
+===================================
+
+
+Expose the application as REST Service
+
+1.Add a Rest Controller
+2.Add all CRUD Methods
+3.Additional add a method to find the products whose ratePerUnit is more than 200rs
+  use a @Query with JPQL

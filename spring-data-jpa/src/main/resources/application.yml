@@ -1,0 +1,33 @@
+
+server:
+  port: 4040
+spring:
+  datasource:
+    password: 123456
+    url: jdbc:mysql://localhost:3306/tieto_customer
+    username: root 
+  jpa:
+    hibernate:
+     ddl-auto: update
+    show-sql: true
+  config:
+    activate:
+      on-profile:
+      - dev
+---
+
+server:
+  port: 5050
+spring:
+  datasource:
+    password:  
+    url: h2:file:C:/h2data/sample
+    username: sa
+  jpa:
+    hibernate:
+     ddl-auto: update
+    show-sql: true
+  config:
+    activate:
+      on-profile:
+      - prod
