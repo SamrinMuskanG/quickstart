@@ -1,0 +1,10 @@
+[11:49 AM] Srivatsan Krishnamachari
+Create a Spring Boot Starter Project
+Add web,lombok,mysqldriver,spring jdbc modules
+Create a Model class Customer or copy from exisitng project
+Create a Interface with name CrudRepository with generic
+Add following methods  save,findAll,findById
+Implement the CrudRepository and override the methods
+Create a Service class and Inject CrudRepository
+From Main method call the methods for service class and check
+create table
