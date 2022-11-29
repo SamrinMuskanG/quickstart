@@ -1,0 +1,7 @@
+rollNumber	studentName	markScored
+1010	Ramesh	50
+2020	Vikas	56
+2021	Shalini	80
+1011	Kumar	90
+1013	Jagan	46
+2023	Nagaraj	99

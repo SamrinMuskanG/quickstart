@@ -1,0 +1,5 @@
+Create a Spring Boot Starter project.
+Add web,lombok,data jpa,my sql driver and spring batch modules
+Create a entity class
+create a Interface extending JPA repository
+update the application.properties to application.yml and add jpa related entries
